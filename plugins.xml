@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="com.anzma.phonebook_emails"
+      version="0.1.0">
+    <name>Phonebook Emails</name>
+    <description>Sample Phonebook Emails Plugin</description>
+    <license>MIT</license>
+    <keywords>phonegap,phonebook,emails</keywords>
+    <js-module src="www/phonebook_emails.js" name="Phonebook_emails">
+        <clobbers target="window.phonebook_emails" />
+    </js-module>
+ 
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Phonebook_emails">
+                <param name="android-package" value="com.anzma.phonebook_emails.Phonebook_emails"/>
+            </feature>
+        </config-file>
+ 
+        <source-file src="src/com.anzma.phonebookcontacts/phonebookEmails.java" target-dir="src/com/anzma/phonebook_emails" />      
+     </platform>          
+</plugin>
