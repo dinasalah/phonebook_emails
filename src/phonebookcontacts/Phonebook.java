@@ -1,4 +1,4 @@
-package phonebookemails;
+package com.anzma.phonebook;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
@@ -16,7 +16,7 @@ import android.provider.ContactsContract.CommonDataKinds.Email;
 import android.util.Log;
 import android.webkit.JavascriptInterface;
 
-public class phonebookEmails extends CordovaPlugin {
+public class Phonebook extends CordovaPlugin {
 
 	private String selected_email;
 	public static final String ACTION_LIST_EMAILS = "ListEmails"; 
