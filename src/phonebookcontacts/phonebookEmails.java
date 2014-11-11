@@ -1,4 +1,4 @@
-package phonebookcontacts;
+package phonebookemails;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
