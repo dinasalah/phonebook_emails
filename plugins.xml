@@ -15,10 +15,10 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Phonebook_emails">
-                <param name="android-package" value="com.anzma.phonebook_emails.Phonebook_emails"/>
+                <param name="android-package" value="phonebookemails.Phonebook_emails"/>
             </feature>
         </config-file>
  
-        <source-file src="src/com.anzma.phonebookcontacts/phonebookEmails.java" target-dir="src/com/anzma/phonebook_emails" />      
+        <source-file src="src/phonebookemails/phonebookEmails.java" target-dir="src/phonebook_emails" />      
      </platform>          
 </plugin>
